@@ -1,0 +1,8 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [["styled-components", { "ssr": true }]]
+}
+
+// Warning prop 'ClassName' issue ..
+
+//solution..  https://stackoverflow.com/questions/65385034/warning-prop-classname-did-not-match-in-next-js-site-with-styled-components
